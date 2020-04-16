@@ -4,11 +4,13 @@ const genResponse = {
 
   generateMarkdown(res, response) {
    const userInfo =  `
-# ${response.title}
-<img width = "100" height = "100" src="${res.data.avatar_url}">
-<h2>
-<h1>ReadMe</h1>
-<h2>Table of Contents</h2>
+# ${response.title} ![Image of Badge](https://img.shields.io/badge/ReadMeGenrator-v1.0-green) 
+
+![Image of TressaPark](${res.data.avatar_url})
+
+
+# ReadMe
+## Table of Contents
 <ul>
 <li><a href="#title">Project Title</a></li>
 <li><a href="#description">Description</a></li>
@@ -17,7 +19,7 @@ const genResponse = {
 <li><a href="#tech">Tech Used</a></li>
 <li><a href="#build">Build Status</a></li>
 <li><a href="#license">License</a></li>
-<li><a href="#badges">Badges</a></li>
+
 <li><a href="#installations">Installations</a></li>
 <li><a href="#credits">Credits</a></li>
 <li><a href="#contact">Contact for Further Information</a></li>
@@ -36,8 +38,7 @@ const genResponse = {
 <p>Build status for this project is <input type="text" name="build" value="">${response.build}</p>
 <h2 id="license">License</h2>
 <p>License for this project is <input type="text" name="license" value ="">${response.license}</p>
-<h2 id="badges">Badges</h2>
-<p>Badge or badges for this project are <input type="text" name="badges" value="">${response.badges}</p>
+
 <h2 id="installations">Installations</h2>
 <p><input type="text" name="installations" value="">${response.installations}</p>
 <h2 id="credits">Credits</h2>

@@ -46,11 +46,7 @@ function init() {
             message: "What is the license for this project?",
             name: "license"
         },
-        {
-            type: "input",
-            message: "What badges does this project have?",
-            name: "badges"
-        },
+  
          {
             type: "input",
             message: "Have any installations been done from this project?",
