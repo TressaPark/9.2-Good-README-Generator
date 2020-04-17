@@ -1,74 +1,83 @@
-//set up inquirer
-const inquirer = require("inquirer")
-//set up api call
-const apiCall = require("./api")
-//set up object for answers to go into
-function init() {
-    inquirer.prompt([
-        {
-            type: "input",
-            message: "What is your GitHub user name?",
-            name: "name"
-        },
-        {
-            type: "input",
-            message: "What is the project title?",
-            name: "title"
-        },
-        {
-            type: "input",
-            message: "What is your project description?",
-            name: "description"
-        },
-        
-        {
-            type: "input",
-            message: "What is the motivation for this project?",
-            name: "motivation"
-        },
-        {
-            type: "input",
-            message: "Who are the contributors to your project?",
-            name: "contributors"
-        },
-         {
-            type: "input",
-            message: "What tech was used to build this project?",
-            name: "tech"
-        },
-         {
-            type: "input",
-            message: "What is the build status of this project?",
-            name: "build"
-        },
-         {
-            type: "input",
-            message: "What is the license for this project?",
-            name: "license"
-        },
-  
-         {
-            type: "input",
-            message: "Have any installations been done from this project?",
-            name: "installations"
-        },
-        {
-        type: "input",
-        message: "Are there any credits for this project?",
-        name: "credits"
+// inquirer set up
+const inquirer = require("inquirer");
+
+// api call
+const fs = require("fs");
+const util= require("util");
+const apiCall = require("./utils/api");
+
+const writeFileAsync = util.promisify(fs.writeFile);
+
+function promptUser() {
+// questions for user to answer
+return inquirer.prompt([
+  {
+    type: "input",
+    name: "title",
+    message: "Enter your project title."
+  },
+  {
+    type: "input",
+    name: "description",
+    message: "Enter your project description."
+  },  
+    // {
+    //   // I think this is actually done in the api.js code
+    //   // type: "input",
+    //   // name: "github profile picture",
+    //   // message: "Include your Github profile picture."
+    // },
+    // {
+    //   type: "input",
+    //   name: "badges",
+    //   message: "What are your project badges?"
+    // Pretty sure that the badges question does not belong here
+    // },
+    {
+      // I want the TOC to have hyperlinks to the various areas of the README. Maybe this will work out as I go along?
+      type: "input",
+      name: "table of contents",
+      message: "Enter your table of contents."
     },
-         {
-            type: "input",
-            message: "What email can I send additional questions to?",
-            name: "email"
-        }
-    ])
-
-    //make api call
-        .then (function(response) {
-            let userName = response.name 
-            apiCall.getUser(userName,response)
-        })
+    {
+      type: "input",
+      name: "installation",
+      message: "Enter the installation instructions for your program."
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "Enter any additional information not included in the description."
+    },
+    {
+      type: "input",
+      name: "license",
+      message: "Enter the license name and link to the license content."
+    },
+    {
+      type: "input",
+      name: "contributers",
+      message: "Who contributed to your project?"
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "Explain how to run the automated tests for this system."
+    },
+    {
+      type: "input",
+      name: "username",
+      message: "Enter your Github username."
+    },
+    {
+      type: "input",
+      name: "github email",
+      message: "Enter your Github email."
+    },
+  ]);
 }
+promptUser().then(function(answer){
+  apiCall.getUser(answer.username, answer);
+});
 
-init();
+// Thank you to my tutor Vivian Nguyen, Jill  Westerfelhaus, wikipedia.com, welcometothejungle.com, and my classwork at NU
