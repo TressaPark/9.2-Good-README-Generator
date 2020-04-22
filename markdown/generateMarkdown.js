@@ -14,17 +14,17 @@ const genResponse = {
 
 # ReadMe
 ## Table of Contents
-* [Project Title.](#markdown-header-project-title)
-* [Description.](#markdown-header-description)
-* [Motivation.](#markdown-header-motivation)
-* [Contributors.](#cmarkdown-header-ontributors)
-* [Tech Used.](#markdown-header-tech-used)
-* [Build Status.](#markdown-header-build-status)
-* [License.](#markdown-header-license)
-* [Tests.](#markdown-header-tests)
-* [Installations.](#markdown-header-installations)
-* [Credits.](#markdown-header-credits)
-* [Contact.](#markdown-header-contact)
+* [Project Title] (#markdown-header-project-title)
+* [Description] (#markdown-header-description)
+* [Motivation] (#markdown-header-motivation)
+* [Contributors] (#markdown-header-contributors)
+* [Tech Used] (#markdown-header-tech-used)
+* [Build Status] (#markdown-header-build-status)
+* [License] (#markdown-header-license)
+* [Tests] (#markdown-header-tests)
+* [Installations] (#markdown-header-installations)
+* [Credits] (#markdown-header-credits)
+* [Contact] (#markdown-header-contact)
 
 ## Project Title
 <input type="text" name="title" value="">${response.title}
@@ -33,7 +33,7 @@ const genResponse = {
 ## Motivation
 <input type="text" name= "motivation" value="">${response.motivation}
 ## Contributors
-Contributor or contributors for this project are <input type="text" name="contributors" value="">${response.contributers}
+Contributor or contributors for this project are <input type="text" name="contributors" value="">${response.contributors}
 ## Tech Used
 Tech used for this project is <input type="text" name="tech" value="">${response.tech}
 ## Build Status
