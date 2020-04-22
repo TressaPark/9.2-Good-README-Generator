@@ -43,6 +43,21 @@ return inquirer.prompt([
     },
     {
       type: "input",
+      name: "tech",
+      message: "What technology was used for the project?"
+    },
+    {
+      type: "input",
+      name: "build",
+      message: "Enter in the build process."
+    },
+    {
+      type: "input",
+      name: "credits",
+      message: "Enter the collaborators on this project?"
+    },
+    {
+      type: "input",
       name: "username",
       message: "Enter your Github username."
     },

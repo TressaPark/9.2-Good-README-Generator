@@ -49,7 +49,7 @@ const genResponse = {
 `
 //console.log("function works")
 //write file to markdown folder
-console.log(userInfo);
+//console.log(userInfo);
 fs.writeFile("README.md",userInfo,function(err) {
   if (err) {
     return console.log(err)
