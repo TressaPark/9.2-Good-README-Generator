@@ -25,7 +25,7 @@
 <p><input type="text" name= "description" value="">Automated README</p>
 
 ## Motivation
-<p><input type="text" name= "motivation" value="">Project for Northwestern University Full Stack Bootcamp</p>
+<p><input type="text" name= "motivation" value="">Class</p>
 
 ## Contributors
 <p>Contributor or contributors for this project are <input type="text" name="contributors" value="">undefined</p>
@@ -34,19 +34,19 @@
 <p>Tech used for this project is <input type="text" name="tech" value="">node.js</p>
 
 ## Build Status
-<p>Build status for this project is <input type="text" name="build" value="">complete</p>
+<p>Build status for this project is <input type="text" name="build" value="">done</p>
 
 ## License
 <p>License for this project is <input type="text" name="license" value ="">none</p>
 
 ## Tests
-<p><input type="text" name="tests" value="">node Index.js</p>
+<p><input type="text" name="tests" value="">no tests</p>
 
 ## Installations
-<p><input type="text" name="installations" value="">node index.js</p>
+<p><input type="text" name="installations" value="">node Index.js</p>
 
 ## Credits
-<p><input type="text" name="credits" value="">Stude</p>
+<p><input type="text" name="credits" value="">me</p>
 
 ## Contact
 <p>Please feel free to email <input type="text" name="email" value="">tressapark@gmail.com if you have additional questions.  Thank you.</p>
