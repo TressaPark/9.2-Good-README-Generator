@@ -6,17 +6,17 @@
 
 # ReadMe
 ## Table of Contents
-* [Project Title](#markdown-header-project-title)
-* [Description](#markdown-header-description)
-* [Motivation](#markdown-header-motivation)
-* [Contributors](#cmarkdown-header-ontributors)
-* [Tech Used](#markdown-header-tech-used)
-* [Build Status](#markdown-header-build-status)
-* [License](#markdown-header-license)
-* [Tests](#markdown-header-tests)
-* [Installations](#markdown-header-installations)
-* [Credits](#markdown-header-credits)
-* [Contact](#markdown-header-contact)
+* [Project Title.](#markdown-header-project-title)
+* [Description.](#markdown-header-description)
+* [Motivation.](#markdown-header-motivation)
+* [Contributors.](#cmarkdown-header-ontributors)
+* [Tech Used.](#markdown-header-tech-used)
+* [Build Status.](#markdown-header-build-status)
+* [License.](#markdown-header-license)
+* [Tests.](#markdown-header-tests)
+* [Installations.](#markdown-header-installations)
+* [Credits.](#markdown-header-credits)
+* [Contact.](#markdown-header-contact)
 
 ## Project Title
 <input type="text" name="title" value="">README Generator
@@ -31,7 +31,7 @@ Tech used for this project is <input type="text" name="tech" value="">node.js
 ## Build Status
 Build status for this project is <input type="text" name="build" value="">complete
 ## License
-License for this project is <input type="text" name="license" value ="">no license
+License for this project is <input type="text" name="license" value ="">none
 ## Tests
 <input type="text" name="tests" value="">no tests
 ## Installations
