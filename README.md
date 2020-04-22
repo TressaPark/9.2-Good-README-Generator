@@ -19,34 +19,24 @@
 * [Contact] (#contact)
 
 ## Project Title
-<p><input type="text" name="title" value="">README Generator</p>
-
+<input type="text" name="title" value="">README Generator
 ## Description
-<p><input type="text" name= "description" value="">Automated README</p>
-
+<input type="text" name= "description" value="">Automated README
 ## Motivation
-<p><input type="text" name= "motivation" value="">Class</p>
-
+<input type="text" name= "motivation" value="">Class project
 ## Contributors
-<p>Contributor or contributors for this project are <input type="text" name="contributors" value="">undefined</p>
-
+Contributor or contributors for this project are <input type="text" name="contributors" value="">undefined
 ## Tech Used
-<p>Tech used for this project is <input type="text" name="tech" value="">node.js</p>
-
+Tech used for this project is <input type="text" name="tech" value="">node.js
 ## Build Status
-<p>Build status for this project is <input type="text" name="build" value="">done</p>
-
+Build status for this project is <input type="text" name="build" value="">done
 ## License
-<p>License for this project is <input type="text" name="license" value ="">none</p>
-
+License for this project is <input type="text" name="license" value ="">none
 ## Tests
-<p><input type="text" name="tests" value="">no tests</p>
-
+<input type="text" name="tests" value="">no tests
 ## Installations
-<p><input type="text" name="installations" value="">node Index.js</p>
-
+<input type="text" name="installations" value="">node Index.js
 ## Credits
-<p><input type="text" name="credits" value="">me</p>
-
+<input type="text" name="credits" value="">me
 ## Contact
-<p>Please feel free to email <input type="text" name="email" value="">tressapark@gmail.com if you have additional questions.  Thank you.</p>
+Please feel free to email <input type="text" name="email" value="">tressapark@gmail.com if you have additional questions. Thank you.

@@ -27,37 +27,27 @@ const genResponse = {
 * [Contact] (#contact)
 
 ## Project Title
-<p><input type="text" name="title" value="">${response.title}</p>
-
+<input type="text" name="title" value="">${response.title}
 ## Description
-<p><input type="text" name= "description" value="">${response.description}</p>
-
+<input type="text" name= "description" value="">${response.description}
 ## Motivation
-<p><input type="text" name= "motivation" value="">${response.motivation}</p>
-
+<input type="text" name= "motivation" value="">${response.motivation}
 ## Contributors
-<p>Contributor or contributors for this project are <input type="text" name="contributors" value="">${response.contributers}</p>
-
+Contributor or contributors for this project are <input type="text" name="contributors" value="">${response.contributers}
 ## Tech Used
-<p>Tech used for this project is <input type="text" name="tech" value="">${response.tech}</p>
-
+Tech used for this project is <input type="text" name="tech" value="">${response.tech}
 ## Build Status
-<p>Build status for this project is <input type="text" name="build" value="">${response.build}</p>
-
+Build status for this project is <input type="text" name="build" value="">${response.build}
 ## License
-<p>License for this project is <input type="text" name="license" value ="">${response.license}</p>
-
+License for this project is <input type="text" name="license" value ="">${response.license}
 ## Tests
-<p><input type="text" name="tests" value="">${response.tests}</p>
-
+<input type="text" name="tests" value="">${response.tests}
 ## Installations
-<p><input type="text" name="installations" value="">${response.installations}</p>
-
+<input type="text" name="installations" value="">${response.installations}
 ## Credits
-<p><input type="text" name="credits" value="">${response.credits}</p>
-
+<input type="text" name="credits" value="">${response.credits}
 ## Contact
-<p>Please feel free to email <input type="text" name="email" value="">${response.email} if you have additional questions.  Thank you.</p>
+Please feel free to email <input type="text" name="email" value="">${response.email} if you have additional questions. Thank you.
 `
 //console.log("function works")
 //write file to markdown folder
