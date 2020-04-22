@@ -14,40 +14,17 @@ const genResponse = {
 
 # ReadMe
 ## Table of Contents
-
-* [click on this link] (#project-title)
-# Project Title
-
-* [click on this link] (#description)
-# Description
-
-* [click on this link] (#motivation)
-# Motivation
-
-* [click on this link] (#contributors)
-# Contributors
-
-* [click on this link] (#tech-used)
-# Tech Used
-
-* [click on this link] (#build-status)
-# Build Status
-
-* [click on this link] (#license)
-# License
-
-* [click on this link] (#tests)
-# Tests
-
-* [click on this link] (#installations)
-# Installations
-
-* [click on this link] (#credits)
-# Credits
-
-* [click on this link] (#contact)
-# Contact
-
+* [Project Title] (#project-title)
+* [Description] (#description)
+* [Motivation] (#motivation)
+* [Contributors] (#contributors)
+* [Tech Used] (#tech-used)
+* [Build Status] (#build-status)
+* [License] (#license)
+* [Tests] (#tests)
+* [Installations] (#installations)
+* [Credits] (#credits)
+* [Contact] (#contact)
 
 ## Project Title
 <p><input type="text" name="title" value="">${response.title}</p>
@@ -56,7 +33,7 @@ const genResponse = {
 <p><input type="text" name= "description" value="">${response.description}</p>
 
 ## Motivation
-<h2 id="motivation">Motivation</h2>
+<p><input type="text" name= "motivation" value="">${response.motivation}</p>
 
 ## Contributors
 <p>Contributor or contributors for this project are <input type="text" name="contributors" value="">${response.contributers}</p>
@@ -79,7 +56,7 @@ const genResponse = {
 ## Credits
 <p><input type="text" name="credits" value="">${response.credits}</p>
 
-## Contact for Additional Questions
+## Contact
 <p>Please feel free to email <input type="text" name="email" value="">${response.email} if you have additional questions.  Thank you.</p>
 `
 //console.log("function works")

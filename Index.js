@@ -28,7 +28,7 @@ return inquirer.prompt([
   }, 
   {
     type: "input",
-    name: "contributers",
+    name: "contributors",
     message: "Who contributed to your project?"
   }, 
   {
