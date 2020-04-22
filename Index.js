@@ -20,41 +20,46 @@ return inquirer.prompt([
     type: "input",
     name: "description",
     message: "Enter your project description."
-  },  
+  }, 
+  {
+    type: "input",
+    name: "motivation",
+    message: "Enter the motivation for your project."
+  }, 
+  {
+    type: "input",
+    name: "contributers",
+    message: "Who contributed to your project?"
+  }, 
+  {
+    type: "input",
+    name: "tech",
+    message: "What technology was used for the project?"
+  },
+  {
+    type: "input",
+    name: "build",
+    message: "Enter the build status of this project."
+  },
+  {
+    type: "input",
+    name: "license",
+    message: "Enter the license name and link to the license content."
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "Explain how to run the automated tests for this system."
+  },
     {
       type: "input",
       name: "installations",
-      message: "Enter the installation instructions for your program."
-    },
-    {
-      type: "input",
-      name: "license",
-      message: "Enter the license name and link to the license content."
-    },
-    {
-      type: "input",
-      name: "contributers",
-      message: "Who contributed to your project?"
-    },
-    {
-      type: "input",
-      name: "tests",
-      message: "Explain how to run the automated tests for this system."
-    },
-    {
-      type: "input",
-      name: "tech",
-      message: "What technology was used for the project?"
-    },
-    {
-      type: "input",
-      name: "build",
-      message: "Enter in the build process."
+      message: "Enter the installation instructions for this program."
     },
     {
       type: "input",
       name: "credits",
-      message: "Enter the collaborators on this project?"
+      message: "Enter the credits for this project?"
     },
     {
       type: "input",
