@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 // api call
 const fs = require("fs");
 const util= require("util");
-const apiCall = require("./utils/api");
+const apiCall = require("./api");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -21,33 +21,10 @@ return inquirer.prompt([
     name: "description",
     message: "Enter your project description."
   },  
-    // {
-    //   // I think this is actually done in the api.js code
-    //   // type: "input",
-    //   // name: "github profile picture",
-    //   // message: "Include your Github profile picture."
-    // },
-    // {
-    //   type: "input",
-    //   name: "badges",
-    //   message: "What are your project badges?"
-    // Pretty sure that the badges question does not belong here
-    // },
-    {
-      // I want the TOC to have hyperlinks to the various areas of the README. Maybe this will work out as I go along?
-      type: "input",
-      name: "table of contents",
-      message: "Enter your table of contents."
-    },
     {
       type: "input",
-      name: "installation",
+      name: "installations",
       message: "Enter the installation instructions for your program."
-    },
-    {
-      type: "input",
-      name: "usage",
-      message: "Enter any additional information not included in the description."
     },
     {
       type: "input",
@@ -71,7 +48,7 @@ return inquirer.prompt([
     },
     {
       type: "input",
-      name: "github email",
+      name: "email",
       message: "Enter your Github email."
     },
   ]);

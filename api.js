@@ -5,11 +5,11 @@ const genMd = require("./markdown/generateMarkdown")
 const api = {
   getUser(username,response) {
     axios.get(`https://api.github.com/users/${username}`)
-    .then(function(res)  {
+    .then(function(github)  {
       //console log to get email and avatar
-      console.log(res.data.email);
-      console.log(res.data.avatar_url);
-      genMd.generateMarkdown(res,response)
+      //console.log(github.data.email);
+      console.log(github.data.avatar_url);
+      genMd.generateMarkdown(github,response)
       //look for errors
     }).catch(function(error) {
       if (error) {
