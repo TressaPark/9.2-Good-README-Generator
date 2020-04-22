@@ -6,6 +6,9 @@
 
 # ReadMe
 ## Table of Contents
+[Go to instructions](#instructions)
+<a name="instructions"></a>
+# Instructions
 * [Project Title](#markdown-header-project-title)
 * [Description](#markdown-header-description)
 * [Motivation](#markdown-header-motivation)
@@ -25,7 +28,7 @@
 ## Motivation
 <input type="text" name= "motivation" value="">Project at Northwestern University Coding Bootcamp
 ## Contributors
-Contributor or contributors for this project are <input type="text" name="contributors" value="">Tressa Park tutor Vivian Nguyen
+Contributor or contributors for this project are <input type="text" name="contributors" value="">Tressa Park and tutor Vivian Nguyen
 ## Tech Used
 Tech used for this project is <input type="text" name="tech" value="">node.js
 ## Build Status

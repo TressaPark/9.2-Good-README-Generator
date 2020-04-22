@@ -14,6 +14,9 @@ const genResponse = {
 
 # ReadMe
 ## Table of Contents
+[Go to instructions](#instructions)
+<a name="instructions"></a>
+# Instructions
 * [Project Title](#markdown-header-project-title)
 * [Description](#markdown-header-description)
 * [Motivation](#markdown-header-motivation)
