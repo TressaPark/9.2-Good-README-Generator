@@ -6,37 +6,37 @@
 
 # ReadMe
 ## Table of Contents
-* [Project Title] (#project-title)
-* [Description] (#description)
-* [Motivation] (#motivation)
-* [Contributors] (#contributors)
-* [Tech Used] (#tech-used)
-* [Build Status] (#build-status)
-* [License] (#license)
-* [Tests] (#tests)
-* [Installations] (#installations)
-* [Credits] (#credits)
-* [Contact] (#contact)
+* [Project Title](#markdown-header-project-title)
+* [Description](#markdown-header-description)
+* [Motivation](#markdown-header-motivation)
+* [Contributors](#cmarkdown-header-ontributors)
+* [Tech Used](#markdown-header-tech-used)
+* [Build Status](#markdown-header-build-status)
+* [License](#markdown-header-license)
+* [Tests](#markdown-header-tests)
+* [Installations](#markdown-header-installations)
+* [Credits](#markdown-header-credits)
+* [Contact](#markdown-header-contact)
 
 ## Project Title
 <input type="text" name="title" value="">README Generator
 ## Description
 <input type="text" name= "description" value="">Automated README
 ## Motivation
-<input type="text" name= "motivation" value="">Class project
+<input type="text" name= "motivation" value="">Project at Northwestern University Coding Bootcamp
 ## Contributors
 Contributor or contributors for this project are <input type="text" name="contributors" value="">undefined
 ## Tech Used
 Tech used for this project is <input type="text" name="tech" value="">node.js
 ## Build Status
-Build status for this project is <input type="text" name="build" value="">done
+Build status for this project is <input type="text" name="build" value="">complete
 ## License
-License for this project is <input type="text" name="license" value ="">none
+License for this project is <input type="text" name="license" value ="">no license
 ## Tests
 <input type="text" name="tests" value="">no tests
 ## Installations
 <input type="text" name="installations" value="">node Index.js
 ## Credits
-<input type="text" name="credits" value="">me
+<input type="text" name="credits" value="">Tressa Park
 ## Contact
 Please feel free to email <input type="text" name="email" value="">tressapark@gmail.com if you have additional questions. Thank you.
