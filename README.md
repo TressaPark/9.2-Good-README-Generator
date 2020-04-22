@@ -6,20 +6,28 @@
 
 # ReadMe
 ## Table of Contents
-[Go to instructions](#instructions)
-<a name="instructions"></a>
-# Instructions
-* [Project Title](#markdown-header-project-title)
-* [Description](#markdown-header-description)
-* [Motivation](#markdown-header-motivation)
-* [Contributors](#markdown-header-contributors)
-* [Tech Used](#markdown-header-tech-used)
-* [Build Status](#markdown-header-build-status)
-* [License](#markdown-header-license)
-* [Tests](#markdown-header-tests)
-* [Installations](#markdown-header-installations)
-* [Credits](#markdown-header-credits)
-* [Contact](#markdown-header-contact)
+* [Project Title](#project-title)
+<a name="project-title"></a>
+* [Description](#description)
+<a name="description"></a>
+* [Motivation](#motivation)
+<a name="motivation"></a>
+* [Contributors](#contributors)
+<a name="contributors"></a>
+* [Tech Used](#tech-used)
+<a name="tech-used"></a>
+* [Build Status](#build-status)
+<a name="build-status"></a>
+* [Go to License](#license)
+<a name="license"></a>
+* [Go to Tests](#tests)
+<a name="tests"></a>
+* [Installations](#installations)
+<a name="project-installations"></a>
+* [Credits](#credits)
+<a name="credits"></a>
+* [Contact](#contact)
+<a name="contact"></a>
 
 ## Project Title
 <input type="text" name="title" value="">README Generator
